@@ -24,6 +24,8 @@ public class Main {
 		System.out.println("the amount money you have to pay is "+f.sommeTotal());
 		f.deleteLigneDeFacture(0);		
 		System.out.println(f.sommeTotal());
+		
+		// test
 	}
 
 }
