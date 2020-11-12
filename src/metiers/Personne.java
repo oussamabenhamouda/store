@@ -1,10 +1,13 @@
-package gestionDeCommande;
+package metiers;
 
 public class Personne {
 	private String nom;
 	private int id ;
 	private String prenom;
 
+	public Personne() {
+		
+	}
 	public Personne(String nom, int id, String prenom) {
 		this.nom = nom;
 		this.id = id;
